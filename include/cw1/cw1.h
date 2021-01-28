@@ -50,6 +50,7 @@
 #include <geometry_msgs/PointStamped.h>
 #include <geometry_msgs/PoseArray.h>
 #include <sensor_msgs/JointState.h>
+#include <std_msgs/Bool.h>
 
 // cw1 Includes
 #include <moveit/move_group_interface/move_group_interface.h>
