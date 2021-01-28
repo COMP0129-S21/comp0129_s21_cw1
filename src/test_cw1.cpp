@@ -111,7 +111,7 @@ main (int argc, char** argv)
   ros::Publisher obj_pub =
     nh.advertise<geometry_msgs::PoseStamped> ("/object_pose", 1, true);
   ros::Publisher ee_obj_close_pub =
-    nh.advertise<geometry_msgs::PoseStamped> ("/ee_obj_close", 1, true);
+    nh.advertise<std_msgs::Bool> ("/ee_obj_close", 1, true);
   
   ros::Rate r (10);
   while (ros::ok ())
